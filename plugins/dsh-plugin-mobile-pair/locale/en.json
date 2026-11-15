@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Mobile pairing QR",
+    "description": "Shows a scannable QR so the DSH Mobile Android app can pair without typing a host URL and token.",
+    "detail": "docs/DETAIL.md"
+  }
+}

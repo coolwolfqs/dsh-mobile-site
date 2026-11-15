@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "DSH Mobile 插件",
+    "en": "DSH Mobile plugins"
+  },
+  "description": {
+    "zh": "DeepSeek Harness 手机客户端的配套插件。",
+    "en": "Companion plugins for the DeepSeek Harness mobile client."
+  },
+  "metadata": {
+    "categories": {
+      "connect": {
+        "title": {
+          "zh": "连接",
+          "en": "Connectivity"
+        }
+      }
+    },
+    "labels": {
+      "android": {
+        "title": {
+          "zh": "Android",
+          "en": "Android"
+        }
+      },
+      "pairing": {
+        "title": {
+          "zh": "配对",
+          "en": "Pairing"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-mobile-pair",
+      "title": {
+        "zh": "手机配对二维码",
+        "en": "Mobile pairing QR"
+      },
+      "description": {
+        "zh": "dsh web 启动时打印可扫描的配对二维码，手机扫码即连，无需输入地址与 token。",
+        "en": "Prints a scannable pairing QR when dsh web starts, so the phone pairs without typing a host URL or token."
+      },
+      "author": "coolwolfqs",
+      "homepage": "https://coolwolfqs.github.io/dsh-mobile-site/#plugins",
+      "repository": {
+        "url": "https://github.com/coolwolfqs/dsh-mobile-site",
+        "directory": "plugins/dsh-plugin-mobile-pair"
+      },
+      "metadata": {
+        "category": "connect",
+        "keywords": [
+          "dsh-plugin",
+          "android",
+          "pairing",
+          "qrcode"
+        ],
+        "labels": [
+          "android",
+          "pairing"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1763200000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/coolwolfqs/dsh-mobile-site",
+            "commit": "__SITE_COMMIT__",
+            "path": "plugins/dsh-plugin-mobile-pair"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}

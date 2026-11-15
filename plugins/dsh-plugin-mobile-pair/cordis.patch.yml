@@ -1,0 +1,6 @@
+# DSH Mobile pairing QR: print a scannable code beside the `dsh web:` line and
+# serve it to the authenticated browser at /api/mobile-pair. No profile ships
+# this layer; install it with `dsh plugin --profile web add dsh-plugin-mobile-pair`.
+- insert:
+    - id: mobile-pair
+      name: 'dsh-plugin-mobile-pair'
