@@ -71,7 +71,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/coolwolfqs/dsh-mobile-site",
-            "commit": "__SITE_COMMIT__",
+            "commit": "4a42895ab22a5df0f8e4dd952c449514d778282d",
             "path": "plugins/dsh-plugin-mobile-pair"
           },
           "engines": {
