@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "手机配对二维码",
+    "description": "显示可直接扫描的二维码，让 DSH Mobile 安卓端无需手动输入主机地址与 token。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}
